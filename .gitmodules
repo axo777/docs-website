@@ -1,0 +1,4 @@
+[submodule "peatio"]
+	path = vendor/peatio
+	url = git@github.com:rubykube/peatio.git
+	branch = master
