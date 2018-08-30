@@ -2,3 +2,7 @@
 	path = vendor/peatio
 	url = git@github.com:rubykube/peatio.git
 	branch = master
+[submodule "barong"]
+	path = vendor/barong
+	url = git@github.com:rubykube/barong.git
+	branch = master
