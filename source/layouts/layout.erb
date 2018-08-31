@@ -3,14 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+
+    <title><%= current_page.data.title || data.i18n.en.title %></title>
+    <meta name="description" content="<%= data.i18n.en.description %>">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <meta name="theme-color" content="#4C90F6">
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <%= javascript_include_tag "site.js" %>
   </head>
-  <body>
-    <%= yield %>
+  <body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 menu">
+        <ul><%= tree_to_html(data.tree) %></ul>
+      </div>
+      <div class="col-sm-12 col-md-8 content">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

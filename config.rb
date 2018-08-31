@@ -7,6 +7,8 @@ end
 
 page '/docs/*', layout: 'layout', content_type: 'text/html'
 
+activate :navtree
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

@@ -1,0 +1,48 @@
+body {
+  padding-top: 54px;
+  position: relative;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+.mb-6{
+  width:500px;
+}
+
+.mb-0 {
+  text-transform: none;
+}
+
+.fixed {
+  background: #2eaade;
+  position: fixed;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.subheading {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1.35rem;
+}
