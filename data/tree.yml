@@ -1,0 +1,61 @@
+---
+index.html.erb: "/index.html.erb"
+docs:
+  barong:
+    api:
+      api.md: "/docs/barong/api/api.md"
+      api_keys.md: "/docs/barong/api/api_keys.md"
+      authenticating_in_management_api_v1.md: "/docs/barong/api/authenticating_in_management_api_v1.md"
+      event_api.md: "/docs/barong/api/event_api.md"
+      management_api_v1.md: "/docs/barong/api/management_api_v1.md"
+    configuration:
+      2fa.md: "/docs/barong/configuration/2fa.md"
+    mailer.md: "/docs/barong/mailer.md"
+    oauthclient.md: "/docs/barong/oauthclient.md"
+    releases:
+      1.6.0.md: "/docs/barong/releases/1.6.0.md"
+      1.7.0.md: "/docs/barong/releases/1.7.0.md"
+      1.8.0.md: "/docs/barong/releases/1.8.0.md"
+  peatio:
+    api:
+      authenticating_in_management_api_v1.md: "/docs/peatio/api/authenticating_in_management_api_v1.md"
+      management_api_v1.md: "/docs/peatio/api/management_api_v1.md"
+      member_api_v2.md: "/docs/peatio/api/member_api_v2.md"
+      websocket_api.md: "/docs/peatio/api/websocket_api.md"
+    architecture.md: "/docs/peatio/architecture.md"
+    daemons.md: "/docs/peatio/daemons.md"
+    databases:
+      postgresql.md: "/docs/peatio/databases/postgresql.md"
+    demo:
+      members.md: "/docs/peatio/demo/members.md"
+    ops:
+      ci.md: "/docs/peatio/ops/ci.md"
+      deploy:
+        docker.md: "/docs/peatio/ops/deploy/docker.md"
+        kubernetes.md: "/docs/peatio/ops/deploy/kubernetes.md"
+        ubuntu.md: "/docs/peatio/ops/deploy/ubuntu.md"
+    peatio:
+      currency.md: "/docs/peatio/peatio/currency.md"
+      daemons.md: "/docs/peatio/peatio/daemons.md"
+      erc20.md: "/docs/peatio/peatio/erc20.md"
+      ripple.md: "/docs/peatio/peatio/ripple.md"
+      testnet:
+        bitcoin.md: "/docs/peatio/peatio/testnet/bitcoin.md"
+        erc20.md: "/docs/peatio/peatio/testnet/erc20.md"
+        ethereum.md: "/docs/peatio/peatio/testnet/ethereum.md"
+        ripple.md: "/docs/peatio/peatio/testnet/ripple.md"
+    releases:
+      1.2.0.md: "/docs/peatio/releases/1.2.0.md"
+      1.3.0.md: "/docs/peatio/releases/1.3.0.md"
+      1.4.0.md: "/docs/peatio/releases/1.4.0.md"
+      1.5.0.md: "/docs/peatio/releases/1.5.0.md"
+      1.6.0.md: "/docs/peatio/releases/1.6.0.md"
+      1.7.0.md: "/docs/peatio/releases/1.7.0.md"
+      1.8.0.md: "/docs/peatio/releases/1.8.0.md"
+      1.9.0.md: "/docs/peatio/releases/1.9.0.md"
+      PREAMBLE.md: "/docs/peatio/releases/PREAMBLE.md"
+    setup-osx.md: "/docs/peatio/setup-osx.md"
+    setup-ubuntu.md: "/docs/peatio/setup-ubuntu.md"
+    setup-with-docker.md: "/docs/peatio/setup-with-docker.md"
+    specs:
+      event_api.md: "/docs/peatio/specs/event_api.md"
